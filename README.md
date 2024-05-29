@@ -1,2 +1,2 @@
-# OpenFOAM_Project
-Running a heat sink simulation in OpenFOAM
+# Heat Sink Simulation Project
+Creating a heat sink simulation in OpenFOAM
