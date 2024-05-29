@@ -12,6 +12,9 @@ Ran an simulation on my undergraduate thesis project. This time on open source s
 ## Post-Processing in Paraview after Finishing Simulation Run
 ![image](https://github.com/HanChenyue/Heat_Sink_Simulation/assets/112244877/065d8e94-ce89-45ff-a139-9a1a2a453e3b)
 
+![image](https://github.com/HanChenyue/Heat_Sink_Simulation/assets/112244877/47f5affa-d516-456c-a6b8-9410b05293a1)
+
+
 
 ## Undergraduate Thesis Poster
 ![thesis-1](https://github.com/HanChenyue/Heat_Sink_Simulation/assets/112244877/8f37c9e7-dcbe-4ffd-b205-4137823db0df)
