@@ -12,3 +12,5 @@ Ran an simulation on my undergraduate thesis project. This time on open source s
 ## Undergraduate Thesis Poster
 ![thesis-1](https://github.com/HanChenyue/Heat_Sink_Simulation/assets/112244877/8f37c9e7-dcbe-4ffd-b205-4137823db0df)
 
+## Credit
+https://www.researchgate.net/publication/348522205_Conjugate_heat_transfer_CFD_tutorial_for_plate_fin_heat_sink
