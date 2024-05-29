@@ -1,2 +1,2 @@
 # Heat Sink Simulation Project
-Creating a heat sink simulation in OpenFOAM
+Ran an simulation on my undergraduate thesis project on OpenFOAM instead of ANSYS.
