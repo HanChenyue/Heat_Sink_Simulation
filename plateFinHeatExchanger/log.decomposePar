@@ -1,0 +1,227 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : decomposePar -allRegions
+Date   : May 29 2024
+Time   : 17:25:04
+Host   : "openfoam-ThinkPad-X1-Carbon-6th"
+PID    : 262033
+I/O    : uncollated
+Case   : /home/openfoam/Downloads/thesis_heat_sink/plateFinHeatExchanger
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh fluid
+
+Create mesh
+
+Calculating distribution of cells
+ Foam::decompositionMethod::New 
+{
+    numberOfSubdomains 2;
+    method          scotch;
+    simpleCoeffs
+    {
+        n               ( 3 1 2 );
+        delta           0.001;
+    }
+    hierarchicalCoeffs
+    {
+        n               ( 1 1 1 );
+        delta           0.001;
+        order           xyz;
+    }
+    manualCoeffs
+    {
+        dataFile        "";
+    }
+    distributed     no;
+    roots           ( );
+}
+
+Selecting decompositionMethod scotch
+
+Finished decomposition in 0.59 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 202703
+    Number of faces shared with processor 1 = 2638
+    Number of processor patches = 1
+    Number of processor faces = 2638
+    Number of boundary faces = 18130
+
+Processor 1
+    Number of cells = 202744
+    Number of faces shared with processor 0 = 2638
+    Number of processor patches = 1
+    Number of processor faces = 2638
+    Number of boundary faces = 20728
+
+Number of processor faces = 2638
+Max number of cells = 202744 (0.0101123% above average 202724)
+Max number of processor patches = 1 (0% above average 1)
+Max number of faces between processors = 2638 (0% above average 2638)
+
+Time = 0
+
+Processor 0: field transfer
+Processor 1: field transfer
+
+
+Decomposing mesh heater
+
+Create mesh
+
+Calculating distribution of cells
+ Foam::decompositionMethod::New 
+{
+    numberOfSubdomains 2;
+    method          scotch;
+    simpleCoeffs
+    {
+        n               ( 3 1 2 );
+        delta           0.001;
+    }
+    hierarchicalCoeffs
+    {
+        n               ( 1 1 1 );
+        delta           0.001;
+        order           xyz;
+    }
+    manualCoeffs
+    {
+        dataFile        "";
+    }
+    distributed     no;
+    roots           ( );
+}
+
+Selecting decompositionMethod scotch
+
+Finished decomposition in 0 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 1392
+    Number of faces shared with processor 1 = 78
+    Number of processor patches = 1
+    Number of processor faces = 78
+    Number of boundary faces = 292
+
+Processor 1
+    Number of cells = 1416
+    Number of faces shared with processor 0 = 78
+    Number of processor patches = 1
+    Number of processor faces = 78
+    Number of boundary faces = 304
+
+Number of processor faces = 78
+Max number of cells = 1416 (0.854701% above average 1404)
+Max number of processor patches = 1 (0% above average 1)
+Max number of faces between processors = 78 (0% above average 78)
+
+Time = 0
+
+Processor 0: field transfer
+Processor 1: field transfer
+
+
+Decomposing mesh fins
+
+Create mesh
+
+Calculating distribution of cells
+ Foam::decompositionMethod::New 
+{
+    numberOfSubdomains 2;
+    method          scotch;
+    simpleCoeffs
+    {
+        n               ( 3 1 2 );
+        delta           0.001;
+    }
+    hierarchicalCoeffs
+    {
+        n               ( 1 1 1 );
+        delta           0.001;
+        order           xyz;
+    }
+    manualCoeffs
+    {
+        dataFile        "";
+    }
+    distributed     no;
+    roots           ( );
+}
+
+Selecting decompositionMethod scotch
+
+Finished decomposition in 0.3 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 149588
+    Number of faces shared with processor 1 = 1160
+    Number of processor patches = 1
+    Number of processor faces = 1160
+    Number of boundary faces = 16842
+
+Processor 1
+    Number of cells = 149314
+    Number of faces shared with processor 0 = 1160
+    Number of processor patches = 1
+    Number of processor faces = 1160
+    Number of boundary faces = 17436
+
+Number of processor faces = 1160
+Max number of cells = 149588 (0.0916688% above average 149451)
+Max number of processor patches = 1 (0% above average 1)
+Max number of faces between processors = 1160 (0% above average 1160)
+
+Time = 0
+
+Processor 0: field transfer
+Processor 1: field transfer
+
+End
+
